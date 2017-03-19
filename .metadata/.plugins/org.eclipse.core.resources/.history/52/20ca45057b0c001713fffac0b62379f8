@@ -1,0 +1,13 @@
+package com.myproj.controllers.authenticate;
+
+public class UserManager {
+
+private static UserManager um = new UserManager();
+private UserManager(){}
+
+public static void getInstance(){
+	
+	return this.um;
+}
+
+}
